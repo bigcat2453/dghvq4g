@@ -1,0 +1,30 @@
+﻿{
+  "name": "",
+  "description": "",
+  "keywords": [
+    ""
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "e0a0ea3e-8050-4028-9636-04f7bdbec08c",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/bigcat2453/dghvq4g",
+  "repository": "https://github.com/bigcat2453/dghvq4g",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
